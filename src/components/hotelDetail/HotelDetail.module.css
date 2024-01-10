@@ -46,8 +46,8 @@ body:has(.modal){
 
 @media (max-width: 768px) {
   .modal {
-    @apply w-[95%]  max-h-[90vh] overflow-y-scroll flex-col py-[35px] px-[10px];
-    top: calc(45% - 350px);
+    @apply w-[95%]  max-h-[85vh] overflow-y-scroll flex-col py-[35px] px-[10px];
+    top: 4vh;
   }
 
   .lazyImageRoot {
