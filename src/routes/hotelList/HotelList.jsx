@@ -10,7 +10,7 @@ import classes from "./HotelList.module.css";
 
 import HotelCard from "../../components/hotelCard/HotelCard.jsx";
 import EmptyCard from "../../components/emptyCard/EmptyCard.jsx";
-import SearchBar from "../../components/searchBar/searchBar.jsx";
+import SearchBar from "../../components/searchBar/SearchBar.jsx";
 import FilterBar from "../../components/filterBar/FilterBar.jsx";
 
 const HotelList = () => {
