@@ -1,4 +1,4 @@
 #root{
-    @apply h-screen relative text-[#3f475f];
+    @apply h-screen relative text-[#213547] bg-white;
     font-family: Roboto,Georgia, serif;
 }
