@@ -6,7 +6,7 @@ import FavoritesList from "./routes/favoriteList/FavoriteList.jsx";
 import HotelList from "./routes/hotelList/HotelList.jsx";
 import HotelDetail from "./components/hotelDetail/HotelDetail.jsx";
 import RootLayout from "./routes/RootLayout.jsx";
-import PageNotFound from "./routes/pageNotFound/pageNotFound.jsx";
+import PageNotFound from "./routes/pageNotFound/PageNotFound.jsx";
 
 import "./App.css";
 
