@@ -19,6 +19,9 @@
 .modal {
   @apply w-[70%] p-[30px] flex max-w-[1100px] font-bold box-border;
 }
+body:has(.modal){
+  @apply overflow-hidden;
+}
 .rooms {
   @apply flex flex-col gap-2.5;
 }
