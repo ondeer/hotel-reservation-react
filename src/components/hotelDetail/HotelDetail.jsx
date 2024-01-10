@@ -8,8 +8,8 @@ import { setHotelData } from "../../store/hotelData";
 
 import data from "../../data/hotels.json";
 
-import Modal from "../modal/Modal";
-import LazyImage from "../lazyImage/LazyImage";
+import Modal from "../modal/Modal.jsx";
+import LazyImage from "../lazyImage/LazyImage.jsx";
 
 import classes from "./HotelDetail.module.css";
 

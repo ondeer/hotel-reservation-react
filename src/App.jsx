@@ -2,11 +2,11 @@ import React from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 
-import FavoritesList from "./routes/favoriteList/favoriteList";
-import HotelList from "./routes/hotelList/HotelList";
-import HotelDetail from "./components/hotelDetail/HotelDetail";
-import RootLayout from "./routes/RootLayout";
-import PageNotFound from "./routes/pageNotFound/pageNotFound";
+import FavoritesList from "./routes/favoriteList/favoriteList.jsx";
+import HotelList from "./routes/hotelList/HotelList.jsx";
+import HotelDetail from "./components/hotelDetail/HotelDetail.jsx";
+import RootLayout from "./routes/RootLayout.jsx";
+import PageNotFound from "./routes/pageNotFound/pageNotFound.jsx";
 
 import "./App.css";
 

@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
 import Card from "../card/Card";
-import AddFavoriteButton from "../addFavoriteButton/AddFavoriteButton";
-import LazyImage from "../lazyImage/LazyImage";
+import AddFavoriteButton from "../addFavoriteButton/AddFavoriteButton.jsx";
+import LazyImage from "../lazyImage/LazyImage.jsx";
 
 import classes from "./HotelCard.module.css";
 

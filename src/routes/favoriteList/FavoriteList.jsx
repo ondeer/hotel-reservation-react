@@ -5,8 +5,8 @@ import { setHotelData } from "../../store/hotelData";
 
 import data from "../../data/hotels.json";
 
-import FavoriteCard from "../../components/favoriteCard/FavoriteCard";
-import EmptyCard from "../../components/emptyCard/EmptyCard";
+import FavoriteCard from "../../components/favoriteCard/FavoriteCard.jsx";
+import EmptyCard from "../../components/emptyCard/EmptyCard.jsx";
 
 import classes from "./FavoriteList.module.css";
 

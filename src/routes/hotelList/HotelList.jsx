@@ -8,10 +8,10 @@ import data from "../../data/hotels.json";
 
 import classes from "./HotelList.module.css";
 
-import HotelCard from "../../components/hotelCard/HotelCard";
-import EmptyCard from "../../components/emptyCard/EmptyCard";
-import SearchBar from "../../components/searchBar/searchBar";
-import FilterBar from "../../components/filterBar/FilterBar";
+import HotelCard from "../../components/hotelCard/HotelCard.jsx";
+import EmptyCard from "../../components/emptyCard/EmptyCard.jsx";
+import SearchBar from "../../components/searchBar/searchBar.jsx";
+import FilterBar from "../../components/filterBar/FilterBar.jsx";
 
 const HotelList = () => {
   const [selectedLocation, setSelectedLocation] = useState([]);
