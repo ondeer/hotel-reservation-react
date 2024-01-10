@@ -1,0 +1,8 @@
+.backdrop {
+  @apply fixed top-0 left-0 w-full h-screen z-10;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .modal {
+    @apply border-0 rounded-md shadow-md p-0 overflow-hidden z-10 fixed;
+  }

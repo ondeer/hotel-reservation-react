@@ -1,0 +1,27 @@
+.pageFound {
+    @apply flex items-center justify-evenly;
+}
+
+.imageDiv {
+    @apply w-2/5;
+}
+
+.imageDiv img{
+    @apply w-full;
+}
+
+.goToHome{
+    @apply text-center text-xl font-bold;
+}
+.goToHome a{
+    @apply underline text-[#3f475f];
+}
+.goToHome a:hover{
+    @apply text-[red];
+}
+
+@media (max-width: 768px ) {
+    .pageFound {
+        @apply flex-col;
+    }
+  }

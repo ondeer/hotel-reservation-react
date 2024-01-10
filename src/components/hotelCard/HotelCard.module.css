@@ -1,0 +1,16 @@
+.hotel{
+    @apply p-[30px] flex flex-col items-center  box-border;
+}
+.hotel img{
+    @apply w-full rounded-[5px];
+}
+.hotelInfo{
+    @apply flex flex-col items-center list-none;
+    padding-inline-start: 0px;
+}
+.hotelImage{
+    @apply relative;
+}
+.hotelCardName{
+    @apply uppercase font-extrabold text-[19px] text-center;
+}

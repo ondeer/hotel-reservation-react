@@ -1,0 +1,61 @@
+.hotelDetailContent {
+  @apply p-[20px];
+}
+.hotelDetailInfo {
+  @apply flex flex-col;
+}
+.description {
+  @apply italic;
+}
+.closeModal {
+  @apply absolute right-[30px] text-[30px] cursor-pointer text-[#3f475f] box-border;
+}
+.closeModal:hover {
+  @apply text-[red] border-2 border-[red] rounded-[20px];
+}
+.lazyImageRoot {
+  @apply w-1/2 flex;
+}
+.modal {
+  @apply w-[70%] p-[30px] flex max-w-[1100px] font-bold box-border;
+}
+.rooms {
+  @apply flex flex-col gap-2.5;
+}
+.rooms img {
+  @apply w-[100px];
+}
+.roomContent {
+  @apply flex border-2 border-solid border-[#3f475f] overflow-hidden rounded-[20px] cursor-pointer;
+}
+.roomContent:hover {
+  @apply border-[green];
+}
+.roomContentDetail {
+  @apply flex flex-col list-none;
+}
+.roomContentDetail svg {
+  @apply mr-[10px];
+}
+.contentFlex {
+  @apply flex items-center;
+}
+
+@media (max-width: 768px) {
+  .modal {
+    @apply w-[95%]  max-h-[90vh] overflow-y-scroll flex-col py-[35px] px-[10px];
+    top: calc(45% - 350px);
+  }
+
+  .lazyImageRoot {
+    @apply w-full;
+  }
+
+  .closeModal {
+    @apply top-[5px] right-[10px];
+  }
+
+  .roomContentDetail {
+    @apply text-sm;
+  }
+}

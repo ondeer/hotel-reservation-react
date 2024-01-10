@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Lüks Hotel",
+    "image": "https://picsum.photos/500",
+    "location": "İstanbul, Türkiye",
+    "price": 250,
+    "description": "İstanbul'un en lüks oteli, muhteşem deniz manzarası ile.",
+    "rooms": [
+      {
+        "id": 101,
+        "type": "Standart Oda",
+        "capacity": 2,
+        "price": 200
+      },
+      {
+        "id": 102,
+        "type": "Deluxe Oda",
+        "capacity": 3,
+        "price": 300
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Gözde Resort",
+    "location": "Antalya, Türkiye",
+    "image": "https://picsum.photos/500",
+    "price": 180,
+    "description": "Doğayla iç içe, sakin bir tatil için ideal.",
+    "rooms": [
+      {
+        "id": 201,
+        "type": "Standart Oda",
+        "capacity": 2,
+        "price": 150
+      },
+      {
+        "id": 202,
+        "type": "Suite",
+        "capacity": 4,
+        "price": 250
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Dağ Evi",
+    "location": "Trabzon, Türkiye",
+    "image": "https://picsum.photos/500",
+    "price": 120,
+    "description": "Karadeniz'in eşsiz doğasında huzurlu bir konaklama.",
+    "rooms": [
+      {
+        "id": 301,
+        "type": "Standart Oda",
+        "capacity": 2,
+        "price": 100
+      },
+      {
+        "id": 302,
+        "type": "Aile Odası",
+        "capacity": 5,
+        "price": 150
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sahil Hotel",
+    "location": "İzmir, Türkiye",
+    "image": "https://picsum.photos/500",
+    "price": 200,
+    "description": "Ege'nin serin sularına nazır, konforlu bir konaklama.",
+    "rooms": [
+      {
+        "id": 401,
+        "type": "Standart Oda",
+        "capacity": 2,
+        "price": 180
+      },
+      {
+        "id": 402,
+        "type": "Manzara Suite",
+        "capacity": 3,
+        "price": 250
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Orman Lodge",
+    "location": "Bolu, Türkiye",
+    "image": "https://picsum.photos/500",
+    "price": 150,
+    "description": "Doğanın içinde, sessiz ve huzurlu bir konaklama.",
+    "rooms": [
+      {
+        "id": 501,
+        "type": "Ağaç Ev",
+        "capacity": 2,
+        "price": 120
+      },
+      {
+        "id": 502,
+        "type": "Deluxe Bungalow",
+        "capacity": 4,
+        "price": 200
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Tarihi Konak",
+    "location": "Şirince, Türkiye",
+    "image": "https://picsum.photos/500",
+    "price": 180,
+    "description": "Osmanlı dönemine ait tarihi bir konakta konaklama.",
+    "rooms": [
+      {
+        "id": 601,
+        "type": "Tarihi Oda",
+        "capacity": 2,
+        "price": 160
+      },
+      {
+        "id": 602,
+        "type": "Sultan Suite",
+        "capacity": 3,
+        "price": 250
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Deniz Kızı Resort",
+    "location": "Çeşme, Türkiye",
+    "image": "https://picsum.photos/500",
+    "price": 220,
+    "description": "Ege'nin incisi Çeşme'de lüks bir tatil.",
+    "rooms": [
+      {
+        "id": 701,
+        "type": "Deniz Manzaralı Oda",
+        "capacity": 2,
+        "price": 200
+      },
+      {
+        "id": 702,
+        "type": "Kral Dairesi",
+        "capacity": 4,
+        "price": 350
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Kapadokya Cave Hotel",
+    "location": "Nevşehir, Türkiye",
+    "image": "https://picsum.photos/500",
+    "price": 300,
+    "description": "Benzersiz kaya otellerde eşsiz bir konaklama deneyimi.",
+    "rooms": [
+      {
+        "id": 801,
+        "type": "Mağara Oda",
+        "capacity": 2,
+        "price": 250
+      },
+      {
+        "id": 802,
+        "type": "Kaya Süit",
+        "capacity": 3,
+        "price": 400
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Gölet Kenarı Villaları",
+    "location": "Sapanca, Türkiye",
+    "image": "https://picsum.photos/500",
+    "price": 280,
+    "description": "Gölet kenarında lüks villalarda konaklama.",
+    "rooms": [
+      {
+        "id": 901,
+        "type": "Göl Ev",
+        "capacity": 2,
+        "price": 250
+      },
+      {
+        "id": 902,
+        "type": "Kraliyet Villa",
+        "capacity": 6,
+        "price": 400
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Adalar Boutique Hotel",
+    "location": "Büyükada, Türkiye",
+    "image": "https://picsum.photos/500",
+    "price": 190,
+    "description": "İstanbul'un huzurlu adası Büyükada'da butik bir otel.",
+    "rooms": [
+      {
+        "id": 1001,
+        "type": "Adalar Manzaralı Oda",
+        "capacity": 2,
+        "price": 170
+      },
+      {
+        "id": 1002,
+        "type": "Prens Süiti",
+        "capacity": 3,
+        "price": 250
+      }
+    ]
+  }
+]

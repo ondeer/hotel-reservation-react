@@ -1,0 +1,30 @@
+.hotelList {
+  @apply mx-auto w-4/5 gap-5 p-7 grid grid-cols-2;
+}
+.emptyHotelList{
+  @apply mx-auto w-4/5 gap-5 p-7 grid grid-cols-1 justify-items-center;
+}
+.clearFilter {
+  @apply bg-white border border-[#3f475f] transition-colors duration-500 ease-in-out;
+}
+
+.clearFilter:hover {
+  @apply bg-[#3f475f] text-white;
+}
+
+@media (max-width: 768px) {
+  .hotelList {
+    @apply grid-cols-1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hotelList {
+    @apply grid-cols-3;
+  }
+}
+@media (min-width: 1280px) {
+  .hotelList {
+    @apply grid-cols-4;
+  }
+}

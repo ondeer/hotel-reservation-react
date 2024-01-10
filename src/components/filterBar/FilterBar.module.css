@@ -1,0 +1,20 @@
+.filter ul {
+    @apply flex justify-center flex-wrap list-none gap-[5px];
+    padding-inline-start: 0px;
+  }
+  .filter ul li {
+    @apply cursor-pointer border border-solid border-[#3f475f] p-[10px];
+  }
+  .filter ul li:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.56);
+  }
+  .filter ul li.active {
+    @apply bg-[#3f475f] text-white;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .filter ul {
+        @apply flex-nowrap overflow-x-scroll py-[0px] px-[5px];
+        justify-content: unset;
+      }
+  }

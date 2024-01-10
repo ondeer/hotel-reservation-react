@@ -1,0 +1,50 @@
+.headerContainer {
+    @apply bg-[#3f475f] py-[10px] px-[30px];
+}
+.header {
+    @apply w-4/5 flex justify-between items-center m-auto;
+}
+.favorite {
+    @apply flex flex-col items-center justify-center;
+}
+.favorite:hover a,
+.favorite:hover span {
+    @apply text-[red];
+}
+.favorite span {
+    @apply text-white ;
+  transition: color 0.5s ease;
+}
+.favorite a {
+    @apply flex text-white text-[25px] ;
+  transition: color 0.5s ease;
+}
+.favorite a:hover {
+  animation: heartbeat 0.5s ease infinite;
+}
+.logo img {
+    @apply w-[52px] h-[52px];
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    @apply w-full;
+  }
+  .logo img {
+    @apply w-[42px] h-[42px];
+  }
+  .favorite span {
+    @apply text-sm;
+  }
+}

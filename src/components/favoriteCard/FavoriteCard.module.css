@@ -1,0 +1,40 @@
+.favoriteCard{
+    @apply p-[15px] flex flex-row items-center box-border justify-evenly;
+}
+
+.favoriteCard img{
+    @apply w-full rounded-[5px];
+}
+
+.favoriteHeart button{
+    @apply text-[40px];
+    position: unset;
+}
+.favoriteHeart button:hover{
+    @apply scale-[1.2];
+}
+.favoriteCardName{
+    @apply uppercase font-extrabold text-[18px] text-center;
+}
+.favoriteCardInfo{
+    @apply flex flex-col items-center list-none ps-[0px] ;
+}
+.favoriteImage{
+    @apply w-1/4;
+}
+
+@media only screen and (max-width: 768px) {
+    .favoriteCard{
+        @apply justify-between;
+        width: unset;
+    }
+    .favoriteImage{
+        @apply w-[30%] flex;
+    }
+    .favoriteCardName{
+        @apply text-[16px];
+    }
+    .favoriteCardInfo{
+        @apply text-[15px];
+    }
+  }

@@ -1,0 +1,22 @@
+.favoriteList {
+    @apply w-4/5 mx-auto p-7 flex flex-col;
+  }
+  
+  .favoriteList h2 {
+    @apply text-center;
+  }
+  
+  .favoriteListHotel {
+   @apply grid justify-center gap-5 grid-cols-2;
+  }
+
+  @media (max-width: 768px) {
+    .favoriteListHotel {
+      @apply grid-cols-1;
+    }
+  }
+  @media (min-width: 1280px) {
+    .favoriteListHotel {
+      @apply grid-cols-3;
+    }
+  }

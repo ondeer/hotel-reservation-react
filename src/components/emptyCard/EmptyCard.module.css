@@ -1,0 +1,3 @@
+.emptyCard{
+    @apply text-center text-[#3f475f] text-[18px] font-bold;
+}

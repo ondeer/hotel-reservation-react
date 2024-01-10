@@ -1,0 +1,7 @@
+.search {
+  @apply w-full h-[125px] bg-cover bg-center bg-no-repeat flex items-center justify-center md:h-[300px];
+}
+
+.searchInput {
+  @apply w-4/5 py-[15px] px-[20px] md:py-[25px] md:px-[20px] inline-block border border-[#ccc] box-border rounded-lg font-bold outline-none;
+}

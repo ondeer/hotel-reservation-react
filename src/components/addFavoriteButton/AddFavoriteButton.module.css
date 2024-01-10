@@ -1,0 +1,15 @@
+.favIcon{ 
+    @apply text-[25px] absolute right-[10px] top-[10px] rounded-[20px] p-[5px] cursor-pointer bg-white border-none flex items-center;
+}
+.favIcon:focus{
+    @apply outline-none;
+}
+.favIconFillEmpty{
+    @apply text-[#3f475f];
+}
+.favIconFillRed{
+    @apply text-[red];
+}
+.favIconFillEmpty:hover{
+    @apply text-[red];
+}
