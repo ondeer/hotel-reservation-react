@@ -1,7 +1,6 @@
 import React from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
-
 import FavoritesList from "./routes/favoriteList/FavoriteList.jsx";
 import HotelList from "./routes/hotelList/HotelList.jsx";
 import HotelDetail from "./components/hotelDetail/HotelDetail.jsx";
